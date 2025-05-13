@@ -1,0 +1,4 @@
+Este repositorio contiene la versión de los 3 scrapers relizados para la exploración y descarga de datos desde los repositorios universitarios de las 3 univesidades que se tomaron para el proyecto.
+El archivo .py contiene el cuerpo de los 3 scrapers que se utilizaron.  Se empaquetó de esta manera para reducir la cantidad de archivos y minimizar riesgos de pérdidas parciales.  Está empaquetrado en un formato de clases. Aunque técnicamente funciona como una versión de clases, cada una contiene el 100% del código original de cada scraper individual.
+Los archivos .csv de cada universidad contiene información de los metadatos tanto de TFG como de TFM, aunque el proyecto sólo se trabajó con el grupo de TFG
+Los archivos .zip de cada universidad contiene información de los abstracts/resúmenes tanto de TFG como de TFM, aunque el proyecto sólo se trabajó con el grupo de TFG

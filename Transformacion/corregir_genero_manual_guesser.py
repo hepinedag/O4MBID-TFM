@@ -1,9 +1,14 @@
+# Lee archivo [nombres_corregidos.txt] que contiene la lista de nombres no indentificados por gender-guesser
+# Lee el archivo [P*_metadatos_genero_guesser.csv] 
+# Cruza los 2 archivos anteriores y actualiza los nombres no clasificados de los metadatos con la versión de los nombres corregidos 
+# Genera la versión actualizada de [P*_metadatos_genero_guesser.csv] conservando el mismo nombre de archivo original
+
 import pandas as pd
 import glob
 import os
 
 # Leer archivo de correcciones
-with open("nombres_corregidos_oscar.txt", encoding="utf-8") as f:
+with open("nombres_corregidos.txt", encoding="utf-8") as f:
     lines = [line.strip() for line in f if line.strip()]
 nombres_dict = {lines[i]: lines[i + 1] for i in range(0, len(lines), 2)}
 
